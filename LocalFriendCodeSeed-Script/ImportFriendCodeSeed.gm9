@@ -1,4 +1,4 @@
-echo  "Que Onda\nVamos a meter el FriendCodeSeed\nauthor: anggeloko" 
+echo  "Hola!\nEste Script va a:\nInyectar el FriendCodeSeed\nauthor: anggeloko"
 
 ask "Estas seguro de ejecutar este script?"
 
@@ -10,4 +10,5 @@ echo "El archivo se inyectara en:\n$[SYSPATH]"
 cp -w -n 0:/gm9/seed/LocalFriendCodeSeed_B  $[SYSPATH]
 
 ask "Reboot now?"
+
 reboot

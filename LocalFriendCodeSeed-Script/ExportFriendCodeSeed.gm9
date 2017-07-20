@@ -1,4 +1,4 @@
-echo  "Que Onda\nVamos a sacar el FriendCodeSeed\nauthor: anggeloko"
+echo  "Hola!\nEste Script va a:\nSacar el FriendCodeSeed\nauthor: anggeloko"
 
 ask "Estas seguro de ejecutar este script?"
 
@@ -10,4 +10,5 @@ echo "El archivo estara en:\n$[OUTPATH]"
 cp -h -w -n 1:/rw/sys/LocalFriendCodeSeed_B  $[OUTPATH]
 
 ask "Reboot now?"
+
 reboot
