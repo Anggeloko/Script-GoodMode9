@@ -1,0 +1,1 @@
+The file to be injected must be in SD:gm9/save/ and it has to be called gbavc.sav

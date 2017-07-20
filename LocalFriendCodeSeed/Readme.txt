@@ -1,0 +1,1 @@
+The file to be injected must be in SD:gm9/seed/ and it has to be called LocalFriendCodeSeed_B
