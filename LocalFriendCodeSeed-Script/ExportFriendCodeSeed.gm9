@@ -1,0 +1,13 @@
+echo  "Que Onda\nVamos a sacar el FriendCodeSeed\nauthor: anggeloko"
+
+ask "Estas seguro de ejecutar este script?"
+
+allow -a 1:/
+
+set OUTPATH 0:/gm9/FriendCodeSeed/LocalFriendCodeSeed_B
+echo "El archivo estara en:\n$[OUTPATH]"
+
+cp -h -w -n 1:/rw/sys/LocalFriendCodeSeed_B  $[OUTPATH]
+
+ask "Reboot now?"
+reboot
