@@ -1,0 +1,14 @@
+echo  "Hola!\nEste Script va a:\nInyectar el FriendCodeSeed\nauthor: anggeloko"
+
+ask "Estas seguro de ejecutar este script?"
+
+allow -a 1:/
+
+set SYSPATH 1:/rw/sys/LocalFriendCodeSeed_B
+echo "El archivo se inyectara en:\n$[SYSPATH]"
+
+cp -w -n 0:/gm9/seed/LocalFriendCodeSeed_B  $[SYSPATH]
+
+ask "Reboot now?"
+
+reboot
