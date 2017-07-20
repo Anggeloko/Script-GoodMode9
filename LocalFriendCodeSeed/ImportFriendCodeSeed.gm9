@@ -9,6 +9,8 @@ echo "El archivo se inyectara en:\n$[SYSPATH]"
 
 cp -w -n 0:/gm9/seed/LocalFriendCodeSeed_B  $[SYSPATH]
 
+echo "El script ha terminado"
+
 ask "Reboot now?"
 
 reboot

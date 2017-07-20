@@ -9,6 +9,8 @@ echo "El archivo estara en:\n$[OUTPATH]"
 
 cp -h -w -n 1:/rw/sys/LocalFriendCodeSeed_B  $[OUTPATH]
 
+echo "El script ha terminado"
+
 ask "Reboot now?"
 
 reboot
