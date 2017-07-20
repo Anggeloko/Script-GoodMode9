@@ -2,7 +2,11 @@ echo  "Hola!\nEste Script va a:\nInyectar el save de GBA\nauthor: anggeloko"
 
 ask "Estas seguro de ejecutar este script?"
 
-allow -a 1:/
+
+# find 0:/gm9/save/gbavc.sav
+
+set ERRORMSG "Save no encontrado"
+set SUCCESSMSG "Save encontrado"
 
 set SYSPATH S:/gbavc.sav
 echo "El archivo se inyectara en:\n$[SYSPATH]"
