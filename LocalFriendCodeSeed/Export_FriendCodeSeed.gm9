@@ -1,0 +1,11 @@
+echo  "Hola!\nEste Script va a:\nSacar el FriendCodeSeed\nauthor: anggeloko"
+
+ask "Estas seguro de ejecutar este script?"
+
+allow 1:/
+
+echo "El archivo estara en:\nLa carpeta gm9/LocalFriendCode"
+
+cp -h -w -n 1:/rw/sys/LocalFriendCodeSeed_B  0:/gm9/LocalFriendCode/LocalFriendCodeSeed_B
+
+echo "El script ha terminado"

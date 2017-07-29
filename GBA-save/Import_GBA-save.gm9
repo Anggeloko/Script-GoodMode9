@@ -1,0 +1,14 @@
+echo  "Hola!\nEste Script va a:\nInyectar el save de GBA\nauthor: anggeloko"
+
+ask "Estas seguro de ejecutar este script?"
+
+# find 0:/gm9/savegba/gbavc.sav
+
+set ERRORMSG "Save no encontrado"
+set SUCCESSMSG "Save encontrado"
+
+echo "El Save encontrado se inyectara"
+
+cp -w -n 0:/gm9/savegba/gbavc.sav S:/gbavc.sav
+
+echo "El script ha terminado"

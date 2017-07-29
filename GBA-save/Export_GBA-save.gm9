@@ -1,0 +1,9 @@
+echo  "Hola!\nEste Script va a:\nSacar el save de GBA\nauthor: anggeloko"
+
+ask "Estas seguro de ejecutar este script?"
+
+echo "El archivo estara en:\nLa Carpeta gm9/SaveO"
+
+cp -h -w -n S:/gbavc.sav  0:/gm9/saveO/gbavc.sav
+
+echo "El script ha terminado"
